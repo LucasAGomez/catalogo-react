@@ -26,20 +26,20 @@ cd catalogo-react
 npm install
 npm run dev
 ```
-## Estrutura de pastas
+## Estrutura de arquivos
 
 catalogo-react/
 ├── public/
-│   └── img/
-│       ├── pet-racao.jpg
-│       ├── pet-brinquedo.jpg
-│       └── pet-cama.jpg
+│ └── img/
+│ ├── pet-racao.jpg
+│ ├── pet-brinquedo.jpg
+│ └── pet-cama.jpg
 ├── src/
-│   ├── components/
-│   │   └── ProdutoCard.jsx
-│   ├── App.jsx
-│   ├── App.css
-│   └── main.jsx
+│ ├── components/
+│ │ └── ProdutoCard.jsx
+│ ├── App.jsx
+│ ├── App.css
+│ └── main.jsx
 ├── index.html
 ├── package.json
 └── README.md
