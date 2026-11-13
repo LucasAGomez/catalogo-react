@@ -1,0 +1,87 @@
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 24px;
+  font-family: Arial, sans-serif;
+  color: #222222;
+}
+
+.titulo {
+  text-align: center;
+  color: #0d0d2b;
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  max-width: 400px;
+  margin: 0 auto 32px;
+}
+
+.formulario input {
+  padding: 10px;
+  border: 1px solid #222222;
+  border-radius: 8px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.botao {
+  background-color: #7c5cff;
+  color: #ffffff;
+  border: none;
+  padding: 12px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.lista-produtos {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 16px;
+}
+
+.card-produto {
+  border: 1px solid #222222;
+  border-radius: 8px;
+  padding: 16px;
+}
+
+.card-imagem {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.card-preco {
+  font-weight: bold;
+  color: #0d0d2b;
+}
+
+.carregando {
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .lista-produtos {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .container {
+    padding: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .lista-produtos {
+    grid-template-columns: 1fr;
+  }
+
+  .formulario {
+    max-width: 100%;
+  }
+
+  .titulo {
+    font-size: 24px;
+  }
+}
